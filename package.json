@@ -1,0 +1,29 @@
+{
+  "name": "llm-knowledge-extractor",
+  "version": "1.0.0",
+  "description": "LLM Knowledge Extractor - Jouster Take Home Assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "node server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  },
+  "keywords": [
+    "llm",
+    "knowledge-extractor",
+    "gemini",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT"
+}
