@@ -4,7 +4,7 @@ A full-stack application with React UI and Node.js API that processes unstructur
 
 # Demo
 
-<iframe width="560" height="315" src="https://www.loom.com/embed/9c21c273dcf04901a39f6a4e0091f162?sid=30f97c57-4ab1-4d42-af48-f2c4823838ef" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+https://www.loom.com/share/9c21c273dcf04901a39f6a4e0091f162?sid=30f97c57-4ab1-4d42-af48-f2c4823838ef
 
 ## Setup and Run Instructions
 
